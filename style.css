@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700&subset=latin-ext');
+
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	background-image: url("bg2.png");
+	background-repeat: repeat;
+	background-position: left-top;
+	background-attachment: fixed;
+}
+
+.sav {
+	display: block;
+	width: 50%;
+	max-width: 400px;
+	margin: 50px auto;
+}
+
+.logo {
+	display: block;
+	margin: 20px auto;
+	width: 100%;
+	max-width: 400px;
+}
+
+.social_links {
+	text-align: center;
+	font-size: 30px;
+}
+
+.social_links a:link,
+.social_links a:visited,
+.social_links a:hover,
+.social_links a:active {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+
+.yt_outer {
+	display: block;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.yt_inner {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+}
+
+.yt_iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.about {
+	width: 100%;
+	max-width: 1000px;
+	margin: 50px auto;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.about_title {
+	font-weight: bold;
+}
+
+.members_container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows:  1fr;
+}
+
+.members_parent {
+	display: table;
+}
+
+.members_child {
+	font-size: 18px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.members_title {
+	font-weight: bold;
+}
+
+.members_pic {
+   width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.members_container {
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr auto;
+	}
+	.members_parent {
+	display: block;
+	}
+	.members_child {
+	display: block;
+	text-align: center;
+	margin: 0 0 50px 0;
+	}
+}
