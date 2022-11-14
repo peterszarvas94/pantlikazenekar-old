@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700&subset=latin-ext");
 
 html {
 	margin: 0;
@@ -9,7 +9,7 @@ html {
 
 body {
 	font-size: 16px;
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	background-image: url("bg2.png");
 	background-repeat: repeat;
 	background-position: left-top;
@@ -86,7 +86,7 @@ body {
 	max-width: 1000px;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	grid-template-rows:  1fr;
+	grid-template-rows: 1fr;
 }
 
 .members_parent {
@@ -104,21 +104,21 @@ body {
 }
 
 .members_pic {
-   width: 100%;
+	width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
 	.members_container {
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr auto;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr auto;
 	}
 	.members_parent {
-	display: block;
+		display: block;
 	}
 	.members_child {
-	display: block;
-	text-align: center;
-	margin: 0 0 50px 0;
+		display: block;
+		text-align: center;
+		margin: 0 0 50px 0;
 	}
 }
 
@@ -144,7 +144,7 @@ body {
 	max-width: 1000px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows:  1fr;
+	grid-template-rows: 1fr;
 	gap: 10px;
 }
 
@@ -155,12 +155,12 @@ body {
 
 @media only screen and (max-width: 1000px) {
 	.csoori-image-container {
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr auto;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr auto;
 	}
 	.csoori-image {
-	display: block;
-	text-align: center;
-	margin: 0 0 50px 0;
+		display: block;
+		text-align: center;
+		margin: 0 0 50px 0;
 	}
 }
